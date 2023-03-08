@@ -4,12 +4,15 @@ import './index.css';
 import NameForm from './Form2';
 import reportWebVitals from './reportWebVitals';
 import Form from './Form3';
+import Form4 from './Form4';
+import Form5 from './Form5'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <NameForm />
-   <Form />
+  <Form />
+  <Form5 />
+  
   </React.StrictMode>
 );
 

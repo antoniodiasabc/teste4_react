@@ -24,7 +24,7 @@ class NameForm extends React.Component {
       return (
         <form onSubmit={this.handleSubmit}>
           <label>
-            Nome:
+            Valor:
             <input type="text" value={this.state.value} onChange={this.handleChange} />
           </label>
           <input type="submit" value="Enviar" />
